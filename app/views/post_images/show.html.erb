@@ -60,7 +60,7 @@
                 <li class="comment">
                   <div class="comment-body bb">
                     <div class="comment-avatar">
-                      
+                      <%= attachment_image_tag post_comment.user, :profile_image, :fill, 60, 60, fallback: "no_image.jpeg" %>
                     </div>
                     <div class="comment-text">
                       <div class="comment-author clearfix">
